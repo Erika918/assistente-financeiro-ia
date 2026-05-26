@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>FinSmart IA</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+  <main class="container">
+    <section class="card">
+      <h1>FinSmart IA</h1>
+      <p>Seu assistente financeiro inteligente</p>
+
+      <div class="chat-box" id="chatBox">
+        <div class="bot">Olá! Como posso te ajudar hoje?</div>
+      </div>
+
+      <div class="input-area">
+        <input type="text" id="pergunta" placeholder="Digite sua dúvida financeira...">
+        <button onclick="enviarPergunta()">Enviar</button>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>Simulador de Parcelas</h2>
+
+      <input type="number" id="valor" placeholder="Valor da compra">
+      <input type="number" id="parcelas" placeholder="Número de parcelas">
+      <input type="number" id="juros" placeholder="Juros em %">
+
+      <button onclick="simular()">Simular</button>
+
+      <div id="resultado"></div>
+    </section>
+  </main>
+
+  <script src="/static/script.js"></script>
+</body>
+</html>
