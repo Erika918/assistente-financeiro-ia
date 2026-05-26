@@ -1,4 +1,4 @@
-# FinSmart IA
+# assistente-financeiro-ia
 
 Projeto desenvolvido em Python com Flask para criar uma experiência digital financeira guiada por IA generativa.
 
